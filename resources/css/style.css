@@ -21,11 +21,34 @@ header {
 }
 
 h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+h3 {
     font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6;
 }
 
 h4 {
     font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.6
+}
+
+h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+    line-height: 1.6
+}
+
+footer {
+    position: relative;
+    bottom: -100px;
+    left: 20px;
+    text-align: left;
 }
 
 .main-content {
@@ -63,15 +86,89 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 31.82rem;
+    height: 700px;
+    width: 1200px;
     background-image: url('../images/img-mission-background.jpg');
-    background-position: top;
-    background-size: 95%;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
 }
 
 #mission-statement {
     position: relative;
     background-color: black;
     width: 100%;
+    opacity: 0.9;
+}
+
+#featured {
+    margin: auto;
+    padding: 2rem;
+    width: 1000px;
+}
+
+#featured .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#featured .content .image-container {
+    line-height: 1.6rem;
+    padding-bottom: 0.6rem;
+}
+
+#featured .content .image-container img {
+    width: 300px;
+    height: 200px;
+}
+
+#locations {
+    position: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url('../images/img-locations-background.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+#locations h2 {
+    padding-top: 70px;
+    line-height: 1;
+}
+#locations .content {
+    position: absolute;
+    margin: 15px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 980px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.6rem;
+    padding-bottom: 0.6rem;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    z-index: 2;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.6rem;
+    height: 200px;
 }
